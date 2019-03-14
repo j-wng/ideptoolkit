@@ -28,15 +28,12 @@ permalink: /terms
 
 ### 1. Filename (Required) & Identifiers
 ##### A. Filename (Required)
-
 The filename of the object (ex. `arce_0001.tiff`) is recorded in the "**Filename**" field. For file naming best practices, see the "[File Naming & Organization Guide](https://uclalibrary.github.io/ideptoolkit/filenaming.html)."
 
 ##### B. Local ID (Recommended)
-
 A **Local ID** is any identifier assigned locally (assigned by the institution that owns the item). This can be a shelf-mark, item or catalog number, or in some cases the filename without the extension (ex. `arce_0001`).
 
 ### 2. Title (Required)
-
 The title of the resource being described. Titles may be transcribed or supplied. A transcribed title is taken from the resource. If there is no title inscribed on the resource, a title may be created by the metadata contributor, supplied by the creator or the owning institution, or taken from a reference work or another reliable source.
 
 Do not include initial definite or indefinite articles in the title (The, A, An). Use standard title capitalization of the language used.
@@ -44,11 +41,9 @@ Do not include initial definite or indefinite articles in the title (The, A, An)
 There are two types of titles:
 
 ##### A. Title (Original Language)
-
 The primary title that will be used for sorting. This can be in English or in the language of the resource.
 
 ##### B. Translated Title (English language title)
-
 Used for translations of the title. Titles in non-English languages should be translated into English here.
 
 ##### C. Alternative Title
@@ -65,23 +60,18 @@ EXAMPLES
 
 ### 3. Creator / Contributor (Recommended)
 
-The **CREATOR** element is **required** (if known), while the CONTRIBUTOR element is recommended.
+##### A. Creator
+The entity or entities primarily responsible for making the content of the resource (i.e. author, artist, etc.)
 
-##### DEFINITION:
+##### B. Contributor
+Those responsible for making contributions to the intellectual or artistic content, or the physical production and dissemination, of the resource (i.e. translator, editor, etc.).
 
-CREATOR: The entity or entities primarily responsible for making the content of the resource (i.e. author, photographer, artist, etc). This element is required if the creator of a resource is known.
-
-CONTRIBUTOR: Those responsible for making contributions to the intellectual or artistic content, or the physical production and dissemination, of the resource (i.e. publisher, translator, editor, distributor, etc.).
-
-##### GUIDELINES for creating values for the CREATOR and CONTRIBUTOR elements
-
-It is preferred to take the creator or contributor's name from a standard naming authority file. For IDEP collections, the preferred authority is the [Virtual International Authority File](https://viaf.org) (VIAF). If the name is not found in VIAF, other authority files, such as the Library of Congress Name Authority File (LCNAF), Union List of Artists’ Names (ULAN), or another national authority can be used. If a name does not appear in an authority file, you may establish it in the spreadsheet using the form `LASTname, FIRSTname`.
-
-In the **Authority** column, indicate the code for the authority source from which the name was taken (VIAF, LCNAF, ULAN, etc.). If the name does not appear in an authority file, the source code should be "**local**."
-
-In the case of multiple creators and/or contributors (of the same type), enter each name separated by `/` in the cell. For multiple contributor types (1 editor, 1 translator), enter the names into separate CONTRIBUTOR columns. Contributor columns must be qualified to indicate the role played (i.e. publisher, editor, etc.). There are a few options available in the template pull-down menu. If these do not accurately reflect the role, you may consult the [MARC Code List: Relator codes](https://www.loc.gov/marc/relators/relaterm.html) or the [ULAN role table](http://www.getty.edu/vow/ULANRolePopup).
-
-If CREATOR is unknown, metadata contributors are strongly encouraged to make use of the **CONTRIBUTOR** element.
+##### Preferred sources for Creator and Contributor names:
+* Virtual International Authority File (VIAF): [https://viaf.org](https://viaf.org)
+* Library of Congress Name Authority File (LCNAF): [http://id.loc.gov/authorities/names.html](hyyp://id.loc.gov/authorities/names.html)
+* Getty Union List of Artists' Names (ULAN): [http://www.getty.edu/research/tools/vocabularies/ulan](http://www.getty.edu/research/tools/vocabularies/ulan/)
+  
+If a person’s name does not appear in an authority file, establish it following the form LASTname, FIRSTname or according to the convention of the original language. If an organization’s name does not appear in an authority file, use the organization’s full, preferred name (not an abbreviation, etc.).
 
 ```
 EXAMPLES (Creator)
@@ -94,12 +84,6 @@ EXAMPLES (Contributor)
 * Landsforeningen for bøsser og lesbiske [publisher, from LCNAF]
 * Dickinson, John [designer, from ULAN]
 ```
-
-##### Standards and Guidelines
-
-* [Virtual International Authority File](https://viaf.org) (VIAF) - **Preferred**
-* [Library of Congress Name Authority File](http://authorities.loc.gov) (LCNAF)
-* [Union List of Artists’ Names](http://www.getty.edu/research/tools/vocabularies/ulan/) (ULAN)
 
 ### 4. Publisher place (Recommended)
 
