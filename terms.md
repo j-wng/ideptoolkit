@@ -68,7 +68,7 @@ Those responsible for making contributions to the intellectual or artistic conte
 
 ##### Preferred sources for Creator and Contributor names:
 * Virtual International Authority File (VIAF): [https://viaf.org](https://viaf.org)
-* Library of Congress Name Authority File (LCNAF): [http://id.loc.gov/authorities/names.html](hyyp://id.loc.gov/authorities/names.html)
+* Library of Congress Name Authority File (LCNAF): [http://id.loc.gov/authorities/names.html](http://id.loc.gov/authorities/names.html)
 * Getty Union List of Artists' Names (ULAN): [http://www.getty.edu/research/tools/vocabularies/ulan](http://www.getty.edu/research/tools/vocabularies/ulan/)
   
 If a person’s name does not appear in an authority file, establish it following the form LASTname, FIRSTname or according to the convention of the original language. If an organization’s name does not appear in an authority file, use the organization’s full, preferred name (not an abbreviation, etc.).
