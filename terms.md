@@ -26,16 +26,33 @@ permalink: /terms
 
 <!-- /TOC -->
 
-### 1. Title (Required)
-##### DEFINITION:
+### 1. Filename (Required) & Identifiers
+##### A. Filename (Required)
 
-A word, phrase, character or group of characters that names the resource being described.
+The filename of the object (ex. `arce_0001.tiff`) is recorded in the "**Filename**" field. For file naming best practices, see the "[File Naming & Organization Guide](https://uclalibrary.github.io/ideptoolkit/filenaming.html)."
 
-##### GUIDELINES for creating values for the TITLE element
+##### B. Local ID (Recommended)
 
-Titles may be **transcribed**  or **supplied**. A transcribed title appears on the resource. If there is no title inscribed on the resource, a title may be constructed by the metadata contributor, supplied by the creator or the owning institution, or taken from a reference work or another reliable source. It is not necessary to supply square brackets to signify that a supplied title was not taken from the resource.
+A **Local ID** is any identifier assigned locally (assigned by the institution that owns the item). This can be a shelf-mark, item or catalog number, or in some cases the filename without the extension (ex. `arce_0001`).
 
-Do not include initial definite or indefinite articles in the title. Use standard American-style capitalization.
+### 2. Title (Required)
+
+The title of the resource being described. Titles may be transcribed or supplied. A transcribed title is taken from the resource. If there is no title inscribed on the resource, a title may be created by the metadata contributor, supplied by the creator or the owning institution, or taken from a reference work or another reliable source.
+
+Do not include initial definite or indefinite articles in the title (The, A, An). Use standard title capitalization of the language used.
+
+There are two types of titles:
+
+##### A. Title (Original Language)
+
+The primary title that will be used for sorting. This can be in English or in the language of the resource.
+
+##### B. Translated Title (English language title)
+
+Used for translations of the title. Titles in non-English languages should be translated into English here.
+
+##### C. Alternative Title
+Used if the work is known by another title or has a variant.
 
 ```
 EXAMPLES
@@ -45,19 +62,6 @@ EXAMPLES
 * Australian aboriginal painting about AIDS [supplied]
 * 1965 cityscape of Los Angeles looking northwest toward Santa Monica Mountains [supplied]
 ```
-
-### 2. Filename (Required) & Identifiers
-##### Filename (Required)
-
-The filename of the object (ex. `arce_0001.tiff`) is recorded in the "**Filename**" field. For file naming best practices, see the the "[File Naming & Organization Guide](https://uclalibrary.github.io/ideptoolkit/filenaming.html)."
-
-##### Identifier
-
-An **Identifier** is a universal identifier such as ISBN, ISSN, DOI, or an OCLC number.
-
-##### Local ID (Recommended)
-
-A **Local ID** is any identifier assigned locally. This can be a shelf-mark, item or catalog number, or in some cases the filename without the extension (ex. `arce_0001`).
 
 ### 3. Creator / Contributor (Recommended)
 
