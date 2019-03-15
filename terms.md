@@ -85,26 +85,35 @@ EXAMPLES (Contributor)
 * Dickinson, John [designer, from ULAN]
 ```
 
-### 4. Publisher place (Recommended)
+### 4. Publisher information (Recommended)
+The name and place of the publisher for published resources. Can also include volume and issue for periodicals.
 
-##### DEFINITION:
+##### A. Publisher
+If the item is published, add the publisher name here. The publisher name should be taken from the resource if available. If no publisher is provided, but the publisher is known, use a standard naming authority file, such as: 
+* **_Library of Congress Subject Headings:_** [http://id.loc.gov/authorities/names.html](http://id.loc.gov/authorities/names.html)
+* **_VIAF:_** [https://viaf.org](https://viaf.org)
 
-The name of the place where a resource has been published. (The name of the publisher itself is recorded in the **Contributor** element.)
+##### B. Publisher.place
+The name of the place where the resource was published. The form of the place name should be taken from the resource. When the object does not provide a place, but is known, use a standard naming authority file, such as: 
+* MARC List for Geographic Areas: [http://id.loc.gov/vocabulary/geographicAreas.html](http://id.loc.gov/vocabulary/geographicAreas.html )
 
-##### GUIDELINES for creating values for the PUBLISHER PLACE element
-
-The form of the place name should be taken from the object. When the object does not provide a place, use a standard naming authority file, such as the Thesaurus of Geographic Names (TGN) or the Library of Congress Name Authority file (LCNAF).
+##### C. Volume/year
+If the resource is a periodical (journal, newspaper, magazine), record the volume or year as it appears on the resource. For example, “vol. 2” or “1972”    
 
 ```
 EXAMPLES
-* Copenhagen (Denmark)
-* Habana
+* Vol. 2
+* 192y
 ```
 
-##### Standards and Guidelines
+##### D. Issue
+If the resource is a periodical (journal, newspaper, magazine), record the issue number as it appears on the resource. For example, “no. 16”
 
-* [Thesaurus of Geographic Names (TGN)](http://www.getty.edu/research/tools/vocabularies/tgn/index.html)
-* [Library of Congress Name Authority file (LCNAF](http://authorities.loc.gov))
+```
+Examples
+* Issue 54
+* no. 47
+```
 
 ### 5. Date (Required)
 
